@@ -1,0 +1,9 @@
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(2)\obj\Debug\FileWork(2).csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(2)\bin\Debug\FileWork(2).exe.config
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(2)\bin\Debug\FileWork(2).exe
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(2)\bin\Debug\FileWork(2).pdb
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(2)\obj\Debug\FileWork(2).exe
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(2)\obj\Debug\FileWork(2).pdb
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(2)\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(2)\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(2)\obj\Debug\FileWork(2).csproj.CopyComplete

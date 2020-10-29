@@ -1,0 +1,6 @@
+<AccountForPayment>
+  <salaryForDay>50</salaryForDay>
+  <days>4</days>
+  <oneDayPenaltyForLatePayment>100</oneDayPenaltyForLatePayment>
+  <numberOfDaySoverdue>1</numberOfDaySoverdue>
+</AccountForPayment>

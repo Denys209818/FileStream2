@@ -1,0 +1,10 @@
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(3)\bin\Debug\FileWork(3).exe.config
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(3)\bin\Debug\FileWork(3).exe
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(3)\bin\Debug\FileWork(3).pdb
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(3)\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(3)\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(3)\obj\Debug\FileWork(3).csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(3)\obj\Debug\FileWork(3).csproj.CopyComplete
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(3)\obj\Debug\FileWork(3).exe
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(3)\obj\Debug\FileWork(3).pdb
+C:\Users\Denis\Desktop\Новая папка C#\FileWork2\FileWork(3)\bin\Debug\System.ComponentModel.Annotations.dll
