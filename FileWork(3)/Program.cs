@@ -80,6 +80,10 @@ namespace FileWork_3_
                     try
                     {
                         int salaryForDay = int.Parse(Console.ReadLine());
+                         if (salaryForDay < 0) 
+                    {
+                        throw new Exception();
+                    }
                         account.ChangeSalaryOfDay(salaryForDay);
                     }
                     catch { }
@@ -98,6 +102,10 @@ namespace FileWork_3_
                     try
                     {
                         int oneDayPenalty = int.Parse(Console.ReadLine());
+                          if (oneDayPenalty < 0) 
+                    {
+                        throw new Exception();
+                    }
                         account.ChangeOneDayPenaltyForLatePayment(oneDayPenalty);
                     }
                     catch { }
@@ -105,6 +113,10 @@ namespace FileWork_3_
                     try
                     {
                         int numberOfDaySoverdue = int.Parse(Console.ReadLine());
+                        if (numberOfDaySoverdue < 0) 
+                    {
+                        throw new Exception();
+                    }
                         account.ChangeNumberOfDaySoverdue(numberOfDaySoverdue);
                     }
                     catch { }
