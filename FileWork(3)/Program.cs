@@ -155,7 +155,11 @@ namespace FileWork_3_
             el4.InnerText = account.numberOfDaySoverdue.ToString();
             el.AppendChild(el4);
 
-            XmlElement el5 = document.CreateElement("amountPayableWithoutPenalty");
+            
+
+            if (AccountForPayment.isFormating)
+            {
+                XmlElement el5 = document.CreateElement("amountPayableWithoutPenalty");
             el5.InnerText = account.amountPayableWithoutPenalty.ToString();
 
             XmlElement el6 = document.CreateElement("penalty");
@@ -163,9 +167,7 @@ namespace FileWork_3_
 
             XmlElement el7 = document.CreateElement("totalAmountToBePaid");
             el7.InnerText = account.totalAmountToBePaid.ToString();
-
-            if (AccountForPayment.isFormating)
-            {
+                
                 el.AppendChild(el5);
                 el.AppendChild(el6);
                 el.AppendChild(el7);
