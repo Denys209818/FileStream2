@@ -1,4 +1,4 @@
-﻿using FileWork_3_.Classes;
+using FileWork_3_.Classes;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -67,7 +67,9 @@ namespace FileWork_3_
                 Console.WriteLine("Кiлькiсть днiв: " + account.days);
                 Console.WriteLine("штраф за один день: " + account.oneDayPenaltyForLatePayment);
                 Console.WriteLine("Кiлькiсть просрочених днiв: " + account.numberOfDaySoverdue);
-                
+
+            XmlDocument document;
+
                 if (AccountForPayment.isFormating) 
                 {
                     Console.WriteLine("Штраф: " + account.penalty);
@@ -121,12 +123,14 @@ namespace FileWork_3_
                     }
                     catch { }
 
+                    document = AddToDoc(account);
+                document.Save(path);
 
-                }
-            
+                path = "fileXmlUser.txt";
+                AccountForPayment.isFormating = false;
+            }
 
-            XmlDocument document = AddToDoc(account);
-
+            document = AddToDoc(account);
             document.Save(path);
 
 
